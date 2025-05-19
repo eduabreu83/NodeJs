@@ -22,3 +22,7 @@ console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
 //configurar o arquivo package.json
     // "scripts": { "start": "ts-node .test.ts }
 //criar a pasta src e dentro dela criar o arquivo teste.ts
+
+//modo watch - serve para mostrar a compilação em tempo real
+// comando para instalar o watch
+    // 
