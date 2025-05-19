@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "teste.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node ./src/teste.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduabreu83/NodeJs.git"
+  },
+  "author": "Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduabreu83/NodeJs/issues"
+  },
+  "homepage": "https://github.com/eduabreu83/NodeJs#readme",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
