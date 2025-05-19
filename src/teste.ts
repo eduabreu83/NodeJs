@@ -1,5 +1,5 @@
 let nome: string = "eduardo";
-let idade: number = 20;
+let idade: number = 77;
 
 console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
 
