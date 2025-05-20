@@ -26,3 +26,5 @@ console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
 //modo watch - serve para mostrar a compilação em tempo real
 // comando para instalar o watch
     // 
+
+    console.log(`Utilizando o token ${process.env.SENHA_TESTE} para acessar a API.`);
