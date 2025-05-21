@@ -19,9 +19,6 @@ import helmet from 'helmet';// / importando o helmet para segurança
 import path from 'path'; // importando o path para manipular caminhos de arquivos
 import router from './routes'; // importando as rotas do servidor
 
-import produtosRouter from './routes/produtos'; // importando as rotas de produtos
-
-import voosRouter from './routes/voos'; // importando as rotas de voos
 
 const server = express(); // criando o servidor com express
 
@@ -29,11 +26,6 @@ server.use(helmet()); // Adicionando Helmet para segurança
 server.use(express.json()); // Adicionando suporte a JSON
 server.use(express.urlencoded({ extended: true })); // Adicionando suporte a URL-encoded
 server.use(express.static(path.join(__dirname,'../public'))); // Adicionando suporte a arquivos estáticos
-
-
-server.use('/produtos', router, produtosRouter); // Adicionando as rotas de produtos
-
-server.use('/voos', voosRouter); // Adicionando as rotas de voos
 
 server.use('/', router); // Adicionando as rotas do servidor
 
