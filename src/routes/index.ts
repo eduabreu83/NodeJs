@@ -8,7 +8,7 @@ router.use('/produtos', produtosRouter); // Adicionando as rotas de produtos
 router.use('/voos', voosRouter); // Adicionando as rotas de voos
 
 router.get('/ping', (req, res) => {
-  res.json({ pong:true }); // criando uma rota estaticas para o servidor
+   res.json({ pong:true }); // criando uma rota estaticas para o servidor
 });
 
 router.get('/', (req, res) => {
