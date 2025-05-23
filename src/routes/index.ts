@@ -5,7 +5,7 @@ import { interferir } from "../middlewares/intervir";
 
 const router = express.Router();
 
-router.use(interferir); // Adicionando o middleware de interceptação
+//router.use(interferir); // Adicionando o middleware de interceptação
 
 router.use('/produtos', produtosRouter); // Adicionando as rotas de produtos
 router.use('/voos', voosRouter); // Adicionando as rotas de voos
